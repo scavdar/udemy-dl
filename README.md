@@ -33,4 +33,6 @@ More information in https://github.com/r0oth3x49/udemy-dl
 ## ** How use this image **
     docker run --rm --user $UID:$GID -v $PWD:/downloads luizcarvalho/udemy-dl -u [your@email.com] -p [your_secret_password]  https://www.udemy.com/[course_url]
 
+    docker run --rm -v $PWD:/downloads scavdar/udemy-dl -k cookie.txt  https://www.udemy.com/[course_url]
+
 
